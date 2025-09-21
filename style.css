@@ -1,0 +1,43 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: lavender;
+  color: black;
+  box-sizing: border-box;
+}
+
+/* Header */
+.site-header {
+  background-color: #999; /* grey background */
+  padding: 20px 0;
+  text-align: center;
+}
+
+.site-title {
+  font-family: 'Gagalin', sans-serif; /* Gagalin font */
+  font-weight: bold;
+  font-size: 36px; /* slightly bigger than About Me */
+  margin: 0 0 15px 0;
+  color: black;
+}
+
+.main-nav {
+  margin-top: 15px;
+}
+
+.main-nav .nav-link {
+  font-family: 'Arimo', sans-serif;
+  font-size: 30px;
+  text-decoration: none; /* remove underline */
+  color: black;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: color 0.3s; /* smooth hover */
+}
+
+.main-nav .nav-link:hover {
+  color: purple; /* hover effect */
+  text-decoration: none; /* no underline */
+}
