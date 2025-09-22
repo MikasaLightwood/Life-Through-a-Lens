@@ -366,3 +366,8 @@ body {
   text-align: center;
   font-family: Arial, sans-serif;
 }
+.site-footer p {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+}
