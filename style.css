@@ -283,9 +283,11 @@ body {
   display: table;
   clear: both;
 }
-/* Contact Section */
+/* Contact Section with Background Image */
 .contact-section {
-  background-color: lavender;
+  background: 
+    linear-gradient(rgba(230, 230, 250, 0.8), rgba(230, 230, 250, 0.8)),
+    url('./Images/Chrome.jpg') center/cover no-repeat;
   color: #000;
   padding: 60px 20px;
   display: flex;
@@ -298,10 +300,14 @@ body {
   max-width: 1000px;
   width: 100%;
   gap: 40px;
+  backdrop-filter: blur(1px);
 }
 
 .contact-info, .contact-form {
   flex: 1 1 400px;
+  background-color: rgba(255, 255, 255, 0.6); /* optional: slightly opaque box */
+  padding: 20px;
+  border-radius: 15px;
 }
 
 .contact-info h2, .contact-form h3 {
@@ -351,7 +357,7 @@ body {
 }
 
 .contact-form button:hover {
-  background-color: #4B1470; /* darker purple on hover */
+  background-color: #4B1470; /* darker purple */
 }
 /* Footer */
 .site-footer {
