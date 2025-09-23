@@ -1,8 +1,4 @@
-Perfect 👌 here’s your updated **README.md content** with the **live site link section** added right under the title:
-
----
-
-# Life Through a Lens
+ Life Through a Lens
 
 **Life Through a Lens** is a personal photography portfolio. The site highlights a unique perspective through various sections. Visitors can explore candid portraits, landscapes, and moments that capture both the light and dark sides of life.
 
